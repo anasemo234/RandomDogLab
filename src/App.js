@@ -18,7 +18,7 @@ const getDog = async () => {
   return (
     <div className="App">
      <h1>Random Dog Generator</h1>
-     <input type="button" value="Get Random Dog" onClick={getDog} />
+     <input id="button" type="button" value="Get Random Dog" onClick={getDog} /> <br />
      <DisplayDog dog= {dog} />
     </div>
   );
